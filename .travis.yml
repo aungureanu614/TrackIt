@@ -1,0 +1,17 @@
+language: node_js
+node_js: node
+services:
+- mongodb
+addons:
+  apt:
+    sources:
+    - mongodb-3.2-precise
+    packages:
+    - mongodb-org-server
+deploy:
+  provider: heroku
+  api_key:
+    secure: BWAdWnavNq7VDpc0p1nbyM7vPjxgg/NJPBUozenubL9loGd/sJXsqVtlNorlkiF4g9VqawhJ/ZNiu7oCH7GvnU4pHUefLhn+90Sdm/q3xydNQndEDJToeov44yFchNcg+zb7WmK38PkbAoa+o4O+mhcstODda0okd16QLqAJ73CePFRwbWJVsKoqwv967xOhKGV5z+FGzAgzRlf3w8Z1I05GrAYMCAm8wolLUwYfy9WBNP8FSmfbH6nx+vXICP04g7VTwGGiXC3RhTHpttD+tSBATbV40BiM4pDaXVnwXNtbkrMOs7B9/+3BkPzmhzruEpGcWTaiNMr5FwKWTO177iJ+Hh4yIskPY7dHp4AJDZ0XCmgPPq8ij3Jyn22+AW2DNlvBWlLkO8bRO8MAMTdCCVzQxs802zGiROkQm0MNtnF/9wmGpRa8mUB1m5H5mtRiy3PPJmPsYymxG8wOsi2EIPjbJWxEl88Qu93RSl2tekdS8KvgLP4Kc26Hf4H65tKU5UwiWP/ZblegEaLD02ZK3KM28Lq5x/9/9F/cW7g0hqPtMhI9puWXIaAP9YDHoWoEcH54bTwBfQVgO1vmvEJ4sGjWt1WCKsmorhrM0DPGKbTz8ISBcwuCQH+0h/6d3G5g6ogljtNYq1oIoe7AD76aF/fAO0pfAcA6BM7XKQVXtuY=
+  app: pure-fortress-13675
+  on:
+    repo: aungureanu614/fullstack-capstone

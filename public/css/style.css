@@ -1,0 +1,198 @@
+body {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    border: 0;
+    font-family: "Roboto", Arial;
+    background-color: #2E0927;
+    background-size: cover;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+.about{
+
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    padding: 5% 0 5% 0;
+
+}
+
+.about p{
+
+    color: #FFFFFF;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 5rem;
+}
+ 
+h1{
+    margin: 0 auto;
+    text-align: center;
+    padding: 1.5%;
+    color: #fff;
+    font-size: 2rem;
+
+
+}
+
+
+h2{
+    font-size: 1.5rem;
+    background-color: darkred;
+    /*width: 30%;*/
+    margin: 2rem auto;
+    color: white;
+    /*border-radius: 1rem;*/
+    padding: 1rem;
+}
+
+h4{
+    font-size: 1rem;
+}
+
+.fa-times:hover{
+    cursor: pointer;
+}
+
+.fa-pencil:hover{
+    cursor: pointer;
+}
+
+#places-form{
+    margin: 0 auto;
+}
+
+i, p{
+    font-size: 1rem;
+    color: brown;
+    padding: .1rem;
+}
+ul{
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
+.heading{
+    display: inline-block;
+    padding: 0 5%;
+    margin: 0px 0%;
+}
+
+.set-width{
+    width: 25%;
+}
+
+.main{
+    text-align: center;
+}
+.hidden{
+    display: none;
+}
+
+
+.nav-bar{
+    background-color: darkred;
+    width: 100%;
+    height: 5rem;
+    position: fixed;
+    
+}
+
+input {
+    border: 2px solid #ad8a8a; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.5),
+            0 0 16px rgba(0,0,0,0.5); 
+    padding: 15px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+    width: 33%;
+}
+
+.set-width{
+    width: 33%;
+}
+
+form{
+    background-color: #fafad2;
+    margin: 10% 17%;
+    width: 65%;
+    box-shadow: inset 0 0 40px rgba(139,69,19,1.0);
+    padding-bottom: 5%;
+}
+p{
+    display: inline-block;
+    
+}
+
+.style-name{
+    
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 2%;
+    padding: 0 2%;
+}
+
+footer {
+    
+    height: 10rem;
+    background-color: #3e3436;
+
+}
+
+.contact{
+ 
+    padding: 2%;
+    font-size: 1rem;
+    color: beige;
+    font-family: "Righteous";
+    background-color: #3e3436;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.created-by{
+    padding: 1rem;
+    display: block;
+    color: beige;
+}
+
+.portfolio-link{
+    text-decoration: none;
+     color: inherit;
+}
+
+.portfolio-link:hover{
+    color: lightblue;
+    text-decoration: none;
+}
+
+
+.fa{
+    color: saddlebrown;
+}
+
+.fa-style{
+    padding: 1%;
+    background: beige;
+    border-radius: 50%;
+}
+
+
