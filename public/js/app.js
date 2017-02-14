@@ -219,7 +219,7 @@ Places.prototype.onEditPlace = function(event) {
         elementToEdit.children().toggle();
         this.editPlace(id, elementToEdit.find('input').val());
 
-    }
+    } 
 
 }
 
